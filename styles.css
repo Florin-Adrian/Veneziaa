@@ -45,3 +45,16 @@ nav > a{
     margin-top: 20px;
 }
 
+/* index page */
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 130px; /* Adjust based on nav height */
+    left: 0;
+    z-index: -1; /* Ensures it's behind the navbar */
+}
+
+/* about page */
