@@ -162,3 +162,47 @@ align-content: center;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* drinking page*/
+
+.bar_image{
+    width: 1000px;
+    height: 600px;
+    margin-left: 25%;
+    background-image: url(img/bar_area.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.bar_items{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bar_items .box1{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(img/cocktails.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bar_items .box2{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(img/wine.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
