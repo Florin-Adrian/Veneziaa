@@ -19,7 +19,9 @@ nav{
     align-items: center;
     background-color: black;
 }
-
+.logo{
+    width: 25px;
+}
 nav ul{
     display: flex;
     justify-self: center;
@@ -205,4 +207,74 @@ align-content: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* booking page */
+
+.booking_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #111;
+}
+
+.booking_form,
+.schedule,
+.booking_image,
+.map {
+    width: 24%;
+}
+
+.booking_form h2,
+.schedule h3,
+.map h3 {
+    margin-bottom: 20px;
+}
+
+.booking_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_form label {
+    margin: 5px 0;
+}
+
+.booking_form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking_form button {
+    background-color: #e8b700;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking_form button:hover {
+    background-color: #c29b00;
+}
+.schedule ul {
+    list-style-type: none;
+    font-size: 50px;
+}
+
+.booking_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.map p {
+    margin-top: 10px;
 }

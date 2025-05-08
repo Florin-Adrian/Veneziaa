@@ -5,21 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
-     <a href="index.html"> VENEZIAA </a>
-        <ul >
+        <a href="index.html"> Veneziaa </a>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="food.html">Food</a></li>
             <li><a href="drinks.html">Drinks</a></li>
             <li><a href="booking.html">Booking</a></li>
-            
         </ul>
     </nav>
+
+    <div class="booking_container">
+        <div class="booking_form">
+            <h2>Book now!</h2>
+            <form action="#" method="POST">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" name="guests" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="schedule">
+            <h3>Opening Hours</h3>
+            <ul>
+                <li>Monday: 12:00-22:00</li>
+                <li>Tuesday: 12:00-22:00</li>
+                <li>Wednesday: 12:00-22:00</li>
+                <li>Thursday: 12:00-22:00</li>
+                <li>Friday: 12:00-22:00</li>
+                <li>Saturday: 12:00-22:00</li>
+                <li>Sunday: 12:00-22:00</li>
+            </ul>
+        </div>
+
+        <div class="map">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>DE14 1BS Burton-on-Trent, UK</p>
+            <p>Phone: 07350000000</p>
+            <p>Email: fake@gmail.com</p>
+        </div>
+    </div>
 </body>
 </html>
